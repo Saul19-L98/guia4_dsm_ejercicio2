@@ -14,14 +14,15 @@
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add"
         app:fabSize="normal" />
+
     <ListView
         android:id="@+id/ListaPersonas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="3dp"
-        android:scrollbars="vertical"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:padding="3dp"
+        android:scrollbars="vertical" />
 
 
 

@@ -5,12 +5,19 @@ public class Persona {
     private String nombre;
     String key;
 
+    //Added by sallanez to complete exercise 2.
+
+    private String birthday;
+    private String genre;
+
     public Persona() {
     }
 
-    public Persona(String dui, String nombre) {
+    public Persona(String dui, String nombre, String birthday,String genre) {
         this.dui = dui;
         this.nombre = nombre;
+        this.birthday = birthday;
+        this.genre = genre;
     }
 
 
@@ -37,4 +44,12 @@ public class Persona {
     public void setDui(String dui) {
         this.dui = dui;
     }
+
+    public String getBirtday() {return  birthday;};
+
+    public void setBirtday(String birthday) {this.birthday = birthday;}
+
+    public String getGenre() { return genre;}
+
+    public  void setGenre(String genre){ this.genre = genre;}
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RealTimeDataBase.iml" filepath="$PROJECT_DIR$/.idea/RealTimeDataBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EjemploDBRealFirebase.iml" filepath="$PROJECT_DIR$/.idea/modules/EjemploDBRealFirebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EjemploDBRealFirebase.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EjemploDBRealFirebase.app.iml" />
     </modules>
   </component>
 </project>
